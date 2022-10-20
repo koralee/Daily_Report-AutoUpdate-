@@ -1,5 +1,6 @@
 package study;
 
+
 public class BooleanEx {
 
 	/*

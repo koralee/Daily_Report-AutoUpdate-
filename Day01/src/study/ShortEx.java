@@ -1,5 +1,6 @@
 package study;
 
+
 public class ShortEx {
 	/*
 	 * short : 2byte, 입출력 범위 : -32768~32767

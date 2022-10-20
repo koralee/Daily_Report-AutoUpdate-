@@ -1,5 +1,6 @@
 package study;
 
+
 /* byte : 1byte 자료형이며, 입출력 범위 : -128~127
  * byte bb = -129; 또는 129 는 결국 불가능
  * 
