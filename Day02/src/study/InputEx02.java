@@ -7,7 +7,7 @@ public class InputEx02 {
 	public static void main(String[] args) throws IOException { // 예외전가 필수
 		
 		//숫자 하나만 입력 받기
-		//숫자를 입력 (1개)만 가능!  Ex 10은  1과 0 숫자 두개 이르므로 X
+		//숫자를 입력 (1개)만 가능!  Ex 10은  1과 0 숫자 두개 이므로 X
 		
 		int num1;  // 첫 번째 정수
 		int num2;  // 두 번째 정수
