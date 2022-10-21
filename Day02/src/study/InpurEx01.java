@@ -25,8 +25,10 @@ public class InpurEx01 {
 		int i = System.in.read();  // 입력된 문자를 정수형 숫자로 저장
 		System.out.println(i); 
 
-		System.in.read(); // Enter를 의미
-		System.in.read(); // 두 번 써줘야 함.
+		//System.in.read(); // Enter를 의미
+		//System.in.read(); // 두 번 써줘야 함.
+		//또는 System.in.skip(2);
+		System.in.skip(2);
 		
 		System.out.print("문자열을 입력하세요 : ");
 		char ch = (char)System.in.read();  // 문자열을 입력해도 문자 1개만 입력되도록 강제 형변환

@@ -29,7 +29,7 @@ public class InputEx04 {
 		System.out.print("세 과목의 총 합산 점수 = "+sum);
 		System.out.print("\t평균 점수 = " + evg);
 		
-		
+		System.out.println();
 	}
 
 }

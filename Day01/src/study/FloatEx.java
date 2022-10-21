@@ -1,6 +1,6 @@
 package study;
 
-public class FloatEs {
+public class FloatEx {
 
 	/*
 	 *    실수형 
@@ -19,7 +19,7 @@ public class FloatEs {
 		float var1, var2; // 변수의 선언
 		double d;
 		// 변수의 초기화
-		var1 = 3.4f;
+		var1 = 33.42367f;
 		var2 = 55.55f;
 		d = 0.214;
 		
