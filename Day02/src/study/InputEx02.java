@@ -19,6 +19,7 @@ public class InputEx02 {
 		//System.in.read(); // Enter를 의미
 		//System.in.read(); // 두 번 써줘야 함.
 		//또는 System.in.skip(2);
+		
 		System.in.skip(2);
 		
 		System.out.print("두 번째 정수를 입력하세요 : ");
@@ -26,6 +27,7 @@ public class InputEx02 {
 												  // Ex) 문자 '5'의 ASCII 값은 53 - 문자 '0'의 ASCII 값은 48 이므로 53 - 48 = 5 가 저장됨.
 		
 		System.out.println("num1 + num2 = " + (num1 +num2));
+		
 		
 		
 	}
