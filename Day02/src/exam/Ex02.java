@@ -1,7 +1,7 @@
-package test;
+package exam;
   
 import java.io.*;
-	/*2) 문자열을 이용하여 이름을 출력하시오.  */
+	/*문제 .2) 문자열을 이용하여 이름을 출력하시오.  */
 
 public class Ex02 {
 

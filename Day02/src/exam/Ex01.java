@@ -1,4 +1,4 @@
-package test;
+package exam;
 
 /*
  *    문제 .1) 문자 하나를 입력 받아 출력하는 프로그램 작성. 

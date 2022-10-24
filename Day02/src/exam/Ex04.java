@@ -1,6 +1,6 @@
-package test;
+package exam;
 
-/*4) 임의의 두 정수를 입력받아 합을 구하는 프로그램을 작성하시오.*/
+/*문제 .4) 임의의 두 정수를 입력받아 합을 구하는 프로그램을 작성하시오.*/
 import java.io.*;
 
 public class Ex04 {
