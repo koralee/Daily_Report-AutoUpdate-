@@ -16,7 +16,7 @@ package practice;
 
 import java.util.*;
 
-public class exam03 {
+public class exam03_369 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -26,27 +26,15 @@ public class exam03 {
 		if (num >= 1 && num < 100) {
 			System.out.println(num);
 			if((num / 10 == 3||num / 10 == 6||num / 10 == 9)&& (num % 10 == 3 || num % 10 == 6 || num % 10 == 9))  {
-				
 				System.out.println("박수 짝짝!");
 			} else if ((num / 10 == 3||num / 10 == 6||num / 10 == 9)|| (num % 10 == 3 || num % 10 == 6 || num % 10 == 9)) {
 				System.out.println("박수 짝!");
-			} 
+			}
+			else
+				System.out.println("박수가 없습니다.");
 		}
-		
 		else
 			System.out.println("입력 범위를 벗어났습니다.");
-		
-	/*	
-		if(num>=30&&(num-num%10)%30==0) { //30보다 크면서 10의 자리가 3,6,9인 경우
-			System.out.print("박수짝"); //무조건 박수짝
-			if(num%3==0) { //1의자리가 3,6,9인 경우 짝을 추가
-				System.out.println("짝");
-			}
-		}else if(num%10%3==0) { //30보다 작은 경우 10으로 나눈 나머지를 3으로 나눈 나머지가 0 경우 박수짝
-			System.out.println("박수짝");
-		}
-		 */
-		
 		
 	}
 }
