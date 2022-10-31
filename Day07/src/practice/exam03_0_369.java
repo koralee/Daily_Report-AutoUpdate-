@@ -16,7 +16,7 @@ package practice;
 
 import java.util.*;
 
-public class exam03_369 {
+public class exam03_0_369 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
