@@ -14,7 +14,7 @@ public class Self_Test1 {
 
 		System.out.println("문자열을 입력하세요 : ");
 		char ch = (char) System.in.read(); 
-		/* System.in.read() 자체가 int 정수형을 입력 받으려고한다.
+		/* System.in.read() 자체가 아스키코드를 입력 받으려고한다.
 		 	하지만 선언해준 변주의 자료형은 char이므로 맞춰줘야한다.
 		 	그러므로 강제 형변환을 해줘서 자료형을 맞춰줘야 저장이 가능함.
 		
