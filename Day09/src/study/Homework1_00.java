@@ -7,7 +7,7 @@ package study;
 	*		   입력오류를 출력하시오.
 	*/
 import java.io.*;
-public class Homework_00 {
+public class Homework1_00 {
 
 	public static void main(String[] args)throws IOException {
 		System.out.println("임의의 알파벳 한 문자를 입력 :");
