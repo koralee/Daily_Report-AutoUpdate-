@@ -16,5 +16,4 @@ public class If_Ex01_1 {
 		else
 		System.out.println("입력 오류");
 	}
-
 }
