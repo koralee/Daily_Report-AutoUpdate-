@@ -29,7 +29,7 @@ public class For_Ex04_important {
 		    	System.out.println();
 		     }
 		 */
-
+/*
 		for (k = 1; k <= 3; k++) { // 면의 갯수
 			for (i = 1; i <= 5; i++) { // 행의 갯수
 				for (j = 1; j <= 5; j++) { // 열의 갯수
@@ -39,6 +39,6 @@ public class For_Ex04_important {
 			}
 			System.out.println();
 		}
-
+*/
 	}
 }

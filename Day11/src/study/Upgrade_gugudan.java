@@ -15,7 +15,7 @@ public class Upgrade_gugudan {
 			
 				for (j = m+1; j <(m+1)+c;j++ ) { 			// 열의 갯수 단수(2단부터 그리고 분리된 단 부터 9단까지 해야함)	
 				
-					if(j<=9) 											// j가 9이하일 경우 구구단 출력
+					if(j<=9) 	// j가 9이하일 경우 구구단 출력
 						System.out.printf("%2d  x %3d = %d\t", j, i, j * i);  //구구단 출력
 					
 					else		// 9이상부터는 브레이크로 끝
