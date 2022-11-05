@@ -5,13 +5,13 @@ public class Number_Tree {
 	public static void main(String[] args) {
 		int num = 4; // 원하는 반복 값 입력
 		int i, j;
-		for (i = 1; i <= num; i++) { // 가장 바깥쪽 for문은 반복 횟수 설정
+		for (i = 1; i <= num; i++) { // 가장 바깥쪽 for문은 반복 횟수 설정 #  1은 안들어가짐! 
 
-			for (j = num; j > 1; j--) { // 왼쪽 숫자 출력 or 공백 출력 for문
+			for (j = num; j > 1; j--) { // 왼쪽 숫자 출력 or 공백 출력 for문 // 주의점###( 1은 안들어가지므로 공백만 3개..2개..1개.. 씩 만 출력됨!) 
 				if (i >= j)
 					System.out.print(j);    // 즉 num에서 부터 1씩 빼다가 i와 크거나 같으면 출력 
 				else
-					System.out.print("  "); // 그게 아니면 공백을 출력!
+					System.out.print(" "); // 그게 아니면 공백을 출력!
 			}
 			
 			for (j = 1; j <= num; j++) { // 오른쪽 숫자 출력
