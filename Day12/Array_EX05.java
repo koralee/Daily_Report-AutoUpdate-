@@ -6,5 +6,6 @@ public class Array_EX05 {
 		Array_EX01 aa[] = new Array_EX01[10];
 		aa[0] = new Array_EX01();
 		
+		
 	}
 }
