@@ -16,7 +16,6 @@ public class BooleanEx {
 		System.out.println("변수 T의 값은 :"+T);
 		System.out.println("변수 F의 값은 :"+F);
 		
-		
 	}
 
 }
