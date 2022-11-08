@@ -1,6 +1,6 @@
 package com.For_Ex;
 
-public class For_Ex01 {
+public class For_Ex01_Sum_Cal {
 
 	public static void main(String[] args) {
 

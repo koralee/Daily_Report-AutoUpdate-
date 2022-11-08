@@ -13,7 +13,7 @@ package practice;
 
 import java.util.*;
 
-public class exam05 {
+public class Exam05_Rock_Siger_Paper {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

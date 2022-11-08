@@ -11,7 +11,7 @@ package study;
  */
 import java.io.*;
 
-public class Homework2_00 {
+public class Years_Seperation {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("임의의 년도를 입력 : ");

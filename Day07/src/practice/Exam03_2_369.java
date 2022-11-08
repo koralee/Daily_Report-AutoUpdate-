@@ -2,7 +2,7 @@ package practice;
 
 import java.util.*;
 
-public class exam03_2_369 {
+public class Exam03_2_369 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

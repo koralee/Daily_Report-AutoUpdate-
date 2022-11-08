@@ -6,7 +6,7 @@ package study;
  * 		왼쪽 쉬프트  : 절반이 증가      (*2와 동일)
  * 
  */
-public class BitOperatorEx04 {
+public class BitOperatorEx04_Shift_Cal {
 
 	public static void main(String[] args) {
 		int x = 128;

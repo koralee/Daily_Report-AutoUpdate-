@@ -1,6 +1,6 @@
 package study;
 
-public class BitOperatorEx02 {
+public class BitOperatorEx02_Swap {
 
 	public static void main(String[] args) {
 			

@@ -8,7 +8,7 @@ package study;
  */
 
 
-public class OperatorEx03 {
+public class OperatorEx03_Increase_Decrease {
 
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package study;
 
 import java.io.*; // 입출력 필수 라이브러리
 
-public class InputEx02 {
+public class Buffer_number {
 
 	public static void main(String[] args) throws IOException { // 예외전가 필수
 		

@@ -21,7 +21,7 @@ package practice;
 
 import java.util.*;
 
-public class exam06 {
+public class Exam06_Rock_Siger_Paper2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

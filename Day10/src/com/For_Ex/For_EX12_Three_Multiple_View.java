@@ -7,7 +7,7 @@ package com.For_Ex;
  */
 
 import java.util.*;
-public class For_EX12 {
+public class For_EX12_Three_Multiple_View {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -13,7 +13,7 @@ package exam;
 
 import java.util.*;
 
-public class Exam01 {
+public class Exam01_dollar_Cal {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

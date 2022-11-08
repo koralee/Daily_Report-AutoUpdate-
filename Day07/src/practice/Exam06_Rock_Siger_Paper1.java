@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class exam06_1 {
+public class Exam06_Rock_Siger_Paper1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

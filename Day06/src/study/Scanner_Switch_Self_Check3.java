@@ -1,7 +1,7 @@
 package study;
 
 /*
- *  숙제 
+ *  숙제  
  *  사용자로부터 임의의 정수 두개와 연산자를 입력받아
  *  해당 연산자의 처리 결과를 출력하는 프로그램을 작성하시오
  *  
@@ -14,7 +14,7 @@ package study;
 
 import java.io.*;
 
-public class Self_Check6 {
+public class Scanner_Switch_Self_Check3 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

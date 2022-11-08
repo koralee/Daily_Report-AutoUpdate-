@@ -10,7 +10,7 @@ package com.For_Ex;
 
 import java.util.*;
 
-public class For_EX08 {
+public class For_EX08_A_a_or_a_A_changeMathod {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n1, n2, sum = 0;

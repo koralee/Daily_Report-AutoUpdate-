@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 학년 : year,    점수는 : Score
  */
 
-public class Exam04 {
+public class Exam04_Score_Average {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

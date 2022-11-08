@@ -8,7 +8,7 @@ package study;
 
 import java.util.*;
 
-public class OperatorEx01 {
+public class OperatorEx01_Basic {
 	public static void main(String[] args) {
 
 		// 스캐너 객체 생성

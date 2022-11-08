@@ -14,7 +14,7 @@ package study;
 
 import java.util.*;
 
-public class Self_Check3 {
+public class Money_Separation_Self_Check {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("입력을 입력 : ");

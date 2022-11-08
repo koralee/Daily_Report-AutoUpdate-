@@ -1,6 +1,6 @@
 package com.For_Ex;
 
-public class For_Ex04_important {
+public class For_Ex04_VIParts {
 
 	public static void main(String[] args) {
 		int i, j, k = 0, a = 1;

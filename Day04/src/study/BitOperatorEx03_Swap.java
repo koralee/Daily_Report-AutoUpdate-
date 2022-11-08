@@ -18,7 +18,7 @@ package study;
   *		a = a^b;  // 6^5 = 3
   */
 
-public class BitOperatorEx03 {
+public class BitOperatorEx03_Swap {
 
 	public static void main(String[] args) {
 		

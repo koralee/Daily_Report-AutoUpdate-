@@ -9,7 +9,7 @@ package com.For_Ex;
  * 
  */
 import java.util.*;
-public class For_EX13 {
+public class For_EX13_Upgrade_Average {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class For_EX13 {
 			sum+=num;
 		}
 		evg=sum/(double)cnt;
-		System.out.println(evg);
+		System.out.println("평균은 : "+evg);
 	}
 
 }

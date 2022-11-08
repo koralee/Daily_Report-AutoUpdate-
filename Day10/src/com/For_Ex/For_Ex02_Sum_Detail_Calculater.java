@@ -9,7 +9,7 @@ package com.For_Ex;
  * 
  */
 
-public class For_Ex02 {
+public class For_Ex02_Sum_Detail_Calculater {
 
 	public static void main(String[] args) {
 		int sum = 0;

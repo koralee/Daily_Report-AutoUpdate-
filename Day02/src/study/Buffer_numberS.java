@@ -5,7 +5,7 @@ package study;
  */
 
 import java.io.*; // 모든 IO에 관련된 class를 사용한다는 뜻. (객체지향의 장점)
-public class InputEx04 {
+public class Buffer_numberS {
 
 	public static void main(String[] args)throws IOException {
 		

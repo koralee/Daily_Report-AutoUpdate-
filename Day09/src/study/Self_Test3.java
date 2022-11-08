@@ -7,7 +7,7 @@ package study;
 
 import java.io.*;
 
-public class Test3 {
+public class Self_Test3 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -7,7 +7,7 @@ package study;
 
 
 import java.util.*;
-public class OperatorEx02 {
+public class OperatorEx02_Circle_Calculater {
 
 	public static void main(String[] args) {
 		//System.out.println(Math.PI);

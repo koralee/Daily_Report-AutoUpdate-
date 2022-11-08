@@ -6,7 +6,7 @@ package com.For_Ex;
  */
 
 import java.util.*;
-public class For_EX06 {
+public class For_EX06_Sum_Average {
 
 	public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);

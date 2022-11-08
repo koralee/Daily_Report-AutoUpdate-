@@ -2,7 +2,7 @@ package study;
 
 import java.io.*;
 
-public class Self_Test3 {
+public class Self_number {
 
 	public static void main(String[] args)throws IOException {
 		// 숫자 하나만 입출력 받기

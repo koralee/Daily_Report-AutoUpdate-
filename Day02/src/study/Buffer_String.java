@@ -13,7 +13,7 @@ package study;
 
 
 import java.io.*;
-public class InputEx03 {
+public class Buffer_String {
 
 	public static void main(String[] args)throws IOException {
 		

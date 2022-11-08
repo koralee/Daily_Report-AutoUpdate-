@@ -6,7 +6,7 @@ package practice;
 
 import java.util.*;
 
-public class exam01 {
+public class Mid_number_Seperation {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

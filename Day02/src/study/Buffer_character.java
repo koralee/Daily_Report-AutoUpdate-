@@ -12,7 +12,7 @@ package study;
 
 import java.io.*;
 
-public class InpurEx01 {
+public class Buffer_character {
 
 	public static void main(String[] args)throws IOException{
 /* ASCII Code 입력받음

@@ -14,7 +14,7 @@ package study;
 
 import java.util.Scanner;
 
-public class Self_Check4 {
+public class Year_Calculater_Self_Check {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("임의의 년도를 입력 : ");

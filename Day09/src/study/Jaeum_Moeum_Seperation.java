@@ -8,7 +8,7 @@ package study;
 */
 import java.io.*;
 
-public class Homework1_01 {
+public class Jaeum_Moeum_Seperation {
 
 	public static void main(String[] args) throws IOException {
 		System.out.println("임의의 알파벳 한 문자를 입력 :");

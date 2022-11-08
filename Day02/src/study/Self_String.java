@@ -2,7 +2,7 @@ package study;
 
 import java.io.*;
 
-public class Self_Test2 {
+public class Self_String {
 
 	public static void main(String[] args) throws IOException {
 		// 문자열 입력 받아 확인해보기

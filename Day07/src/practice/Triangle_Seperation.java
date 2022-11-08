@@ -10,7 +10,7 @@ package practice;
  *  삼각형 입니다.
  */
 import java.util.*;
-public class exam02 {
+public class Triangle_Seperation {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

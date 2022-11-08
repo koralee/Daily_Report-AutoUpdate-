@@ -6,7 +6,7 @@ package com.For_Ex;
  * 입력은 Scanner 클래스로 구현
  */
 import java.util.*;
-public class For_EX05 {
+public class For_EX05_sum_Cal2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

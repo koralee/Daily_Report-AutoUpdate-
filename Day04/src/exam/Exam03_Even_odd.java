@@ -6,7 +6,7 @@ package exam;
 
 import java.util.*;
 
-public class Exam03 {
+public class Exam03_Even_odd {
 
 	public static void main(String[] args) {
 

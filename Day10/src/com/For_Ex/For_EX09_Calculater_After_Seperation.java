@@ -13,7 +13,7 @@ package com.For_Ex;
  */
 import java.util.*;
 
-public class For_EX09 {
+public class For_EX09_Calculater_After_Seperation {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

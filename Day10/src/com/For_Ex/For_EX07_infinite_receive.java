@@ -7,7 +7,7 @@ package com.For_Ex;
 
 import java.util.*;
 
-public class For_EX07 {
+public class For_EX07_infinite_receive {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

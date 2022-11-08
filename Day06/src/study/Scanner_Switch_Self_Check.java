@@ -1,7 +1,7 @@
 package study;
 
 import java.util.*;
-public class Self_Check {
+public class Scanner_Switch_Self_Check {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int kor, eng, matt, soc, sci;

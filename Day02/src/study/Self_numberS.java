@@ -1,7 +1,7 @@
 package study;
 
 import java.io.*;
-public class Self_Test4 {
+public class Self_numberS {
 
 	public static void main(String[] args)throws IOException {
 		// 숫자열 받기  ReanLine() 사용!

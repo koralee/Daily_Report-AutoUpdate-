@@ -1,6 +1,6 @@
 package study;
 
-public class BitOperatorEx01 {
+public class BitOperatorEx01_deny {
 	public static void main(String[] args) { // 비트의 부정연산    논리연산은 참, 거짓    // 비트연산은  정수 또는 문자를 2진수로 바꿔서 계산
 		
 		int a = 10, b = 11;

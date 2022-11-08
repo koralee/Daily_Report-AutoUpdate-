@@ -2,7 +2,7 @@ package study;
 
 import java.io.*;
 import java.util.*;
-public class Scan_chage_Self_Test {
+public class Scan_Total {
 	public static void main(String[] args) throws IOException {
 	
 

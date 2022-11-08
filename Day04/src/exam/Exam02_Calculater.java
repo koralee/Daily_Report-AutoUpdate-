@@ -11,7 +11,7 @@ package exam;
 
 import java.util.*;
 
-public class Exam02 {
+public class Exam02_Calculater {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
