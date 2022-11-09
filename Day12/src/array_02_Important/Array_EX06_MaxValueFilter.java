@@ -10,7 +10,7 @@ package array_02_Important;
  * 		가장 큰 수 : 9  
  */
 import java.util.*;
-public class Array_EX06 {
+public class Array_EX06_MaxValueFilter {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("입력 할 개수 : ");

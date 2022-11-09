@@ -23,7 +23,7 @@ package array_02_Important;
 
 import java.util.*;
 
-public class Array_EX07 {
+public class Array_EX07_String_Seperation {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("입력 처리 할 학생 수 : ");
