@@ -1,4 +1,4 @@
-package study;
+package array_01;
 
 import java.util.*;
 

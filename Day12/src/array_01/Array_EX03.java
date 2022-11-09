@@ -1,4 +1,4 @@
-package study;
+package array_01;
 
 public class Array_EX03 {
 

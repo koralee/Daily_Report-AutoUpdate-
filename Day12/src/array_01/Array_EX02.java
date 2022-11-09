@@ -1,4 +1,4 @@
-package study;
+package array_01;
 
 public class Array_EX02 {
 	public static void main(String[] args) {
