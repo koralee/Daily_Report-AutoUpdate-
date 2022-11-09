@@ -9,7 +9,6 @@ public class EX00_Upgrade {
 		for(i=0; i<=10;i++) {
 			sum+=i;
 		}
-		
 		System.out.println("1~10까지의 합계 : "+sum);
 	}
 
