@@ -1,4 +1,4 @@
-package array_01;
+package array_01_Basic;
 
 public class Array_EX02 {
 	public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class Array_EX02 {
 				{4,5,7,8}
 			};
 		for(int i=0;i<bb.length;i++) {  //행  여기서는 bb.length는 3
-			for(int j=0;j<bb[i].length;j++) { //열의 길이  ?행의 길이만큼  여기서 bb[i].length는 ↓↓↓↓↓↓↓↓↓↓ 
+			for(int j=0;j<bb[i].length;j++) { //열의 길이 ?  해당하는 행의 길이만큼  여기서 bb[i].length는 ↓↓↓↓↓↓↓↓↓↓ 
 				System.out.print(bb[i][j]+"\t");	//ex)0행은 2, 3 이므로  2 // 1행은 3, 6, 9 이므로 3  // 2행은 4, 5, 7, 8이므로 4
 			}
 			System.out.println();

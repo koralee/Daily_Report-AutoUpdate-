@@ -39,12 +39,12 @@ public class Array_EX01 {
 			System.out.print(ch[i]);
 		}
 		System.out.println();
-		for (char c : ch)
+		for (char c : ch)				//처름부터 자료형을 char로 선언
 			System.out.print(c);
 		
 				System.out.println();
 		for (int c : ch) 
-			System.out.print((char) c);
+			System.out.print((char) c);// 강제형변환
 			
 				System.out.println();
 		
@@ -61,7 +61,7 @@ public class Array_EX01 {
 		arr[1] = 2;
 		arr[2] = 3;
 		//  1, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0
-		System.out.println(arr[3]);
+		System.out.println(arr[3]);  // arr[3]에 들어있는 값을 출력
 		
 		for(int i = 0; i<arr.length;i++)
 			System.out.printf("%4d",arr[i]);

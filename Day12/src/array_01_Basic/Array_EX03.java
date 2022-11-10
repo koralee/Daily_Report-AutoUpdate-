@@ -1,4 +1,4 @@
-package array_01;
+package array_01_Basic;
 
 public class Array_EX03 {
 
