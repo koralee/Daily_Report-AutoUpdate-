@@ -26,7 +26,7 @@ public class One_dimensional_array {
 		System.out.println();
 		int jumsu[] = new int[subject.length + 1]; // 과목명 다음의 배열의 공간에 총합 점수를 넣을 공간을 할당.
 
-		for (int i = 0; i < jumsu.length - 1; i++) {  //sum.length - 1  = 3   
+		for (int i = 0; i < jumsu.length - 1; i++) {  //jumsu.length - 1  = 3   
 			System.out.print(subject[i] + " 점수 : ");
 			jumsu[i] = Integer.parseInt(br.readLine());
 			jumsu[jumsu.length - 1] += jumsu[i]; // sum[3]에 sum[i] 값을 누적  이건 총합
