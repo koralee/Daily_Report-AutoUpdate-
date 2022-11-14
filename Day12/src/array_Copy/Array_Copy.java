@@ -16,7 +16,6 @@ package array_Copy;
  *  	Object dest		: 복사될 배열
  *  	int destPos		: 복사 시작 위치
  *  	int length		: 복사되는 배열의 길이(요소의 수)
- *  
  */
 
 public class Array_Copy {
