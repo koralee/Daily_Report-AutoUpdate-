@@ -31,22 +31,26 @@ public class Array_ex07_homework {
 		String[] computer = { "가위", "바위", "보" };
 
 		while (true) {
-			int r = (int) (Math.random() * 3); // 0, 1, 2 / 3개 사용을 의미
-			String temp = computer[r]; // temp에도 0가위 1바위 2보 저장
+			
 			System.out.print("가위 바위 보 입력 : ");
 			String hand = sc.next();
 			if (hand.equals("그만")) {
 				System.out.println("게임을 종료 합니다.");
 				break;
 			}
+			int k = (int) (Math.random() * 3); // 0, 1, 2 / 3개 사용을 의미
+			String temp = computer[k]; // temp에도 0가위 1바위 2보 저장
+			
 			System.out.println("사용자 : " + hand + "   컴퓨터 : " + temp);
-			if ((hand.equals("보") && temp.equals("바위")) || (hand.equals("가위") && temp.equals("보"))
+				   if ((hand.equals("보") && temp.equals("바위"))
+					|| (hand.equals("가위") && temp.equals("보"))
 					|| (hand.equals("바위") && temp.equals("가위"))) {
 				System.out.println("사용자가 이겼습니다.");
 				System.out.println();
 
-			} else if ((hand.equals("가위") && temp.equals("바위")) || (hand.equals("바위") && temp.equals("보"))
-					|| (hand.equals("보") && temp.equals("가위"))) {
+			} else if ((hand.equals("가위") && temp.equals("바위")) 
+					   || (hand.equals("바위") && temp.equals("보"))
+					   || (hand.equals("보") && temp.equals("가위"))) {
 				System.out.println("컴퓨터가 이겼습니다.");
 				System.out.println();
 			} else if (hand.equals(temp)) {
