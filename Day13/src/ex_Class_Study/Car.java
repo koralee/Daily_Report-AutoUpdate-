@@ -3,9 +3,16 @@ package ex_Class_Study;
 public class Car { // 클래스 정의
 
 	// 속성, 필드(=변수) 선언
-	private String color; // 속성 선언
-	private int speed; // 속도
+	protected String color; // 속성 선언
+	public static int speed; // 속도
 
+	Car(){
+		color ="빨강";
+		speed = 0;
+	}
+	
+	
+	
 	public String getColor() {
 		return color;
 	}
