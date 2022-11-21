@@ -21,7 +21,7 @@ public class Calc {
 	int n1, n2;
 	char ch;
 
-	void input() throws IOException {
+	void input() throws IOException {  // 입력
 		Scanner sc = new Scanner(System.in);
 		System.out.println("임의의 두 정수 입력[공백 구분]");
 		n1 = sc.nextInt();
@@ -30,7 +30,7 @@ public class Calc {
 		ch = (char) System.in.read();
 	}
 
-	int calculate() {
+	int calculate() { // 처리
 		int sum = 0;
 		switch (ch) {
 		case '+':
@@ -49,7 +49,7 @@ public class Calc {
 		return sum;
 	}
 
-	void output(int result) {
+	void output(int result) {// 출력
 		System.out.printf("%d %c %d = %d\n ", n1, ch, n2, result);
 	}
 
