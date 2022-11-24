@@ -1,4 +1,4 @@
-package extend_Ex;
+package extend_Ex01;
 
 public class AAA {
 	protected int x, y;

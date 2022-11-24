@@ -1,4 +1,4 @@
-package extend_Ex;
+package extend_Ex01;
 
 import java.io.*;
 
