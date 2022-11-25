@@ -34,7 +34,7 @@ class Rectangle {
 		System.out.println("크기가 " + w + "X" + h + "인 사각형");
 	}
 
-	public boolean contain(Rectangle A) { 
+	public boolean contain(Rectangle A) { // contain 메소드
 		// Rectangle A는 새로운 객체가 아닌!!! 매개변수(=파마메터!)이다! 착각하지 말 것!
 		if (x < A.x && y < A.y 
 				&& x + w > A.x +A.w 
