@@ -6,5 +6,4 @@ public class ConcertMain {
 		Concert concert = new Concert("수홍이와 유쾌한 친구홀");
 		concert.run();
 	}
-
 }
