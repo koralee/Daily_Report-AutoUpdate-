@@ -10,9 +10,10 @@ package com.For_Ex;
 
 public class For_EX10_width_length {
 	public static void main(String[] args) {
-		for(int i=0;i<5;i++) {       //행(가로)
-			for(int j=5;j>i;j--) {		// 열(세로)
-				System.out.print("★");
+		int a = 1;
+		for(int i=0;i<4;i++) {       //행(가로)
+			for(int j=4;j>i;j--) {		// 열(세로)
+				System.out.print(a+++"\t");
 			}
 			System.out.println();
 		}
