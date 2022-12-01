@@ -26,7 +26,7 @@ public class Dictionary extends PairMap {
 		// 현재 배열에 저장된 개수만큼 반복한다.
 		int i = 0;
 		for (i = 0; i < cnt; i++) {
-			if (keyArray[i].equals(key)) { // 아무것도 없는경우는 break;
+			if (keyArray[i].equals(key)) { 
 				break;
 			}
 		}
