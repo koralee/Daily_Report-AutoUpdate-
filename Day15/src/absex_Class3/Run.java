@@ -11,7 +11,8 @@ public class Run {
 		int b = sc.nextInt();
 		char operator = sc.next().charAt(0);
 
-		// Calc c = new Calc(); // 추상 클래스는 객체 생성 불가!
+		Calc c;
+		//c = new Calc(); // 추상 클래스는 객체 생성 불가!
 
 		Calc exp = null; // 다향성을 활용!
 
