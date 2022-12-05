@@ -21,6 +21,5 @@ public enum City {
 	private City(String cityName, int Ingu) {
 		this.cityName = cityName;
 		this.Ingu = Ingu;
-
 	}
 }
