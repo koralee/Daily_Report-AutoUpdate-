@@ -26,6 +26,7 @@ public class ChoiceEx extends Frame {
 		setVisible(true); // true = 보임 // false = 안보임
 		WinEvent ww = new WinEvent();
 		addWindowListener(ww);	
+		
 	}
 
 	public static void main(String[] args) {
