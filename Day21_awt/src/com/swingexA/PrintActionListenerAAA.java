@@ -1,4 +1,4 @@
-package com.swingex;
+package com.swingexA;
 
 import java.awt.*;
 import java.awt.event.*;

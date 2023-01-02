@@ -1,4 +1,4 @@
-package com.swingex;
+package com.swingexA;
 
 import java.awt.*;
 import javax.swing.*;
@@ -6,7 +6,7 @@ import javax.swing.*;
 public class JTableExAAA {
 
 	public static void main(String[] args) {
-		JFrame f = new JFrame("참가사 명단 프로그램");
+		JFrame f = new JFrame("참가자 명단 프로그램");
 		
 		f.setPreferredSize(new Dimension(300,150));
 		f.setLocation(500, 400);

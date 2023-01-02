@@ -19,6 +19,7 @@ public class Exam01_dollar_Cal {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("원화를 입력하세요 : (단위 원)");
 		int W = sc.nextInt();
+		String a = sc.nextLine();
 		final float rate = 1100; // 환율 고정
 		float D = W/rate;
 		
