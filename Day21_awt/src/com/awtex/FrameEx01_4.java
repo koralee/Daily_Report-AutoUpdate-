@@ -1,9 +1,7 @@
 package com.awtex;
 
-import java.awt.Frame;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.*;
+import java.awt.event.*;
 
 public class FrameEx01_4 extends Frame {
 	// 익명 클래스를 이용하는 방법

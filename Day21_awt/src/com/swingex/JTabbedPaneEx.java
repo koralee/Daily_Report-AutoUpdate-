@@ -12,7 +12,7 @@ public class JTabbedPaneEx extends JFrame{
 	private JButton jbt = new JButton("Button", icon1);
 
 	private JTabbedPane jtp = new JTabbedPane(SwingConstants.TOP); // top center bottom
-
+	
 	public JTabbedPaneEx() {
 		super("JTabbedPane Test");
 		
@@ -23,12 +23,13 @@ public class JTabbedPaneEx extends JFrame{
 		jtp.addTab("Label",icon2, jbt);
 		
 		con.add("Center",jtp);
-		setSize(300,300);
+		//setSize(300,300);
+		pack();
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 	}
-
+	
 	public static void main(String[] args) {
 		new JTabbedPaneEx();
 	}

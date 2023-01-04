@@ -13,7 +13,7 @@ public class ChoiceEx extends Frame {
 		super("Choice Test");
 
 		setLayout(new GridLayout(3, 1));
-
+		
 		add(la);
 		add(co);
 		add(bt);
