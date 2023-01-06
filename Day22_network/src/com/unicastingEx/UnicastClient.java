@@ -11,6 +11,7 @@ public class UnicastClient {
 	BufferedReader keyboard = null;
 
 	public UnicastClient() {
+		
 		try {
 			socket = new Socket("localhost", 5000);
 		} catch (UnknownHostException uhe) {

@@ -7,7 +7,7 @@ public class URLEx {
 	public static void main(String[] args) {
 		BufferedReader br = null;
 		try {
-
+			
 			URL url = new URL("https://www.naver.com/index.html");
 			URLConnection uc = url.openConnection();
 			uc.connect();

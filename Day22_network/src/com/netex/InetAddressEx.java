@@ -9,8 +9,7 @@ public class InetAddressEx {
 		 * 		InetAddress : ip정보와 host 정보를 가지는 객체이다
 		 * 							 InetAddress 객체는 생성자가 아닌 Static 메소드를 이용해서 생성한다.
 		 */
-		
-		
+			
 		try {
 			InetAddress ipInfo1 = InetAddress.getByName("localhost");
 			String ip = ipInfo1.getHostAddress();
