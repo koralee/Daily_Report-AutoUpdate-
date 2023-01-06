@@ -14,10 +14,10 @@ public class A_a_or_a_A_change_Mathod {
 		char ch =(char)System.in.read();   // 문자 입력
 		
 		char ch2 =((ch>='a'&& ch<='z')||(ch>='A'&&ch<='Z'))? ch : '\0' ;   
-		// 알파벳이 들어오면  ch가 S에 저장   그 외의 값이면  ' '이  저장
+		// 알파벳이 들어오면  ch가 ch2에 저장   그 외의 값이면  ' '이  저장
 		
 		String Seperate = ((ch2=='a' ||ch2=='e' ||ch2=='i' ||ch2=='o' ||ch2=='u')||(ch2=='A' ||ch2=='E' ||ch2=='I' ||ch2=='O' ||ch2=='U'))?"모음":"자음"; 
-		//  S가 모음이랑 겹치면 모음  아니면 자음을 k에 저장
+		//  ch2가 모음이랑 겹치면 모음  아니면 자음을 Seperate에 저장
 		
 		String Print = (ch2 == ch)? (ch2+"는"+Seperate+"입니다."):"입력오류";
 		System.out.println(Print);
