@@ -10,11 +10,11 @@ public class Practice extends JFrame {
 	Font f1 = new Font("궁서체", Font.ITALIC, 20);
 
 	private JTextField count1 = new JTextField(14); // text
-	private JTextField tmemo1 = new JTextField(29); // text
+	private JTextField tmemo1 = new JTextField(26); // text
 	private JTextField count2 = new JTextField(14); // text
-	private JTextField tmemo2 = new JTextField(29); // text
-	private JTextField view1 = new JTextField(17); // text
-	private JTextArea view2 = new JTextArea("", 20, 2); // text, 범위, 범위 넘어가면 스크롤바 생김
+	private JTextField tmemo2 = new JTextField(26); // text
+	private JTextArea view1 = new JTextArea(20, 15); // text
+	private JTextArea view2 = new JTextArea(20, 15); // text
 
 	// ====================================================
 	// 상단 메뉴바 멤버필드
@@ -55,42 +55,49 @@ public class Practice extends JFrame {
 		setLayout(new BorderLayout());
 		MenuBar(); // 메뉴바 셋팅
 		setFont(); // 폰트설정
+		Layout();
+		
+		Exit();// 종료 및 설정
+	}
+
+	//Layout 셋팅
+	public void Layout() {
 		JPanel ImagePanel = new JPanel(new FlowLayout());// 이미지
 		ImagePanel.add(jlb1);
 		add(ImagePanel);
 
-		input(); // 인풋
-		button();// 버튼
 
 		// 왼쪽 레이아웃
 		JPanel totalLeft = new JPanel(new BorderLayout());
 		totalLeft.add("North", ImagePanel);
-		totalLeft.add("Center", input());
-		totalLeft.add("South", button());
+		totalLeft.add("Center", input()); // 인풋 여기서 추가
+		totalLeft.add("South", button());// 버튼 여기서 추가
 		add("Center", totalLeft);
 
 		// 오른쪽 레이아웃
 		JPanel text = new JPanel(new GridLayout(1, 2));
-		text.add(view1);
-		text.add(view2);
-	//	view1.setEditable(false);
-	//	view2.setEditable(false);
-	//	JScrollPane jsp = new JScrollPane(text,
-	//			JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
-	//			JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-		
+		JScrollPane jsp1 = new JScrollPane(view1,
+				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		view1.setEditable(false);
+		text.add(jsp1);
+
+		JScrollPane jsp2 = new JScrollPane(view2,
+				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		view2.setEditable(false);
+		text.add(jsp2);
+
 		JPanel zzz = new JPanel(new BorderLayout());
 		zzz.add("Center", text);
 		zzz.add("South", remainCount);
-		
-		
+
 		JPanel full = new JPanel(new FlowLayout());
 		full.add(totalLeft);
 		full.add(zzz);
 		add("East", full);
-		Exit();// 종료 및 설정
 	}
-
+		
 	// 입력창 셋팅
 	public JPanel input() {
 		JPanel All = new JPanel(new GridLayout(4, 1));
