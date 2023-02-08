@@ -4,10 +4,10 @@ import java.awt.*;
 
 public class TextEx extends Frame {
 
-	private TextField tf = new TextField("제목");
-	private TextArea ta = new TextArea("메모", 5, 10);  // text, 범위, 범위 넘어가면 스크롤바 생김   
-	private Button bt = new Button("확인");
-	private Label la = new Label("내용");
+	private TextField tf = new TextField("Subject");
+	private TextArea ta = new TextArea("Memo", 5, 10);  // text, 범위, 범위 넘어가면 스크롤바 생김   
+	private Button bt = new Button("Confirm");
+	private Label la = new Label("Story");
 	
 
 	public TextEx() {
@@ -15,10 +15,10 @@ public class TextEx extends Frame {
 
 		//레이아웃 셋팅
 		setLayout(new BorderLayout()); // 가로 세로
-		add("North",tf);
-		add("South",bt);
-		add("Center",ta);
-		add("West",la);
+		add("North",tf);//제목
+		add("South",bt);//버튼
+		add("Center",ta);//내용
+		add("West",la);//라벨
 
 	
 		

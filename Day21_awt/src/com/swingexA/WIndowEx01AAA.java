@@ -4,8 +4,6 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.table.*;
 
-import com.swingex.Remove_ActionListenerAAA;
-
 public class WIndowEx01AAA {
 
 	public static void main(String[] args) {

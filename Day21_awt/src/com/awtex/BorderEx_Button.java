@@ -17,11 +17,12 @@ public class BorderEx_Button extends Frame {
 		super("Button Test");
 
 		// 레이아웃 설정
-		setLayout(new GridLayout(4, 3, 5, 5)); // 4는 가로 //3는 세로 // 가로의 gap //세로의 gap
+		setLayout(new GridLayout(4, 3, 5, 5)); 
+		// 4는 가로 //3는 세로 // 가로의 gap //세로의 gap
 		for (int i = 0; i < bt.length; i++) {
 
-			bt[i] = new Button(str[i]);
-			bt[i].setFont(new Font("궁서체", Font.BOLD, 30));
+			bt[i] = new Button(str[i]); // 버튼 생성
+			bt[i].setFont(new Font("궁서체", Font.BOLD, 30)); //폰트 설정
 			add(bt[i]);
 		}
 

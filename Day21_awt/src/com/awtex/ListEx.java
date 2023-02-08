@@ -10,9 +10,9 @@ public class ListEx extends Frame {
 	private Button bt = new Button("확인");
 	private String[] name;
 
-	public ListEx(String[] a) {
+	public ListEx(String[] Sub) {
 		super("List Test");// 창 이름
-		this.name = a; // a는 배열 통째로 들어가지는 것이다!
+		this.name = Sub; // Sub는 배열 통째로 들어가지는 것이다!
 
 		// 레이아웃 설정 (먼저해줘야한다!)
 		setLayout(new BorderLayout()); // 가로 세로

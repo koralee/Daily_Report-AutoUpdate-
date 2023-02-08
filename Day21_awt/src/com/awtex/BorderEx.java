@@ -13,11 +13,11 @@ public class BorderEx extends Frame {
 
 		setLayout(new BorderLayout(5, 5));
 
-		a = new Label("↑", Label.CENTER);
-		b = new Label("↓", Label.CENTER);
-		c = new Label("←", Label.CENTER);
-		d = new Label("→", Label.CENTER);
-		e = new Label("이동", Label.CENTER);
+		a = new Label("Up", Label.CENTER);
+		b = new Label("Down", Label.CENTER);
+		c = new Label("Left", Label.CENTER);
+		d = new Label("Right", Label.CENTER);
+		e = new Label("Move", Label.CENTER);
 
 		setBackground(Color.YELLOW); // 배경색
 		a.setBackground(Color.RED); // 글자의 공간의 배경색

@@ -5,7 +5,9 @@ import java.awt.*;
 public class CheckBoxEx extends Frame {
 
 	private Label lb = new Label("which fruit Do U Like?!");
-	private Checkbox[] cb = { new Checkbox("Banana", true), new Checkbox("Apple", true), new Checkbox("Pich", true) };
+	private Checkbox[] cb = { new Checkbox("Banana", true),
+										   new Checkbox("Apple", true),
+										   new Checkbox("Pich", true) };
 	private Button bt = new Button("Confirm");
 
 	public CheckBoxEx() {
